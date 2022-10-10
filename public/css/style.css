@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400;1,500&family=Sansita+Swashed:wght@800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	background-color: #96e8fb;
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+	font-family: 'Sansita Swashed', cursive;
+
+}
+h1{
+	font-size: 2.25em;
+	color: #000000;
+
+}
+h2{
+	font-size: 2em;
+	color: #000000;
+}
+
+p{
+	font-size: 1em;
+	color: #000000;
+
+}
+
+header {
+	width: 100%;
+}
+
+header .logo{
+	
+	display: inline-block;
+	margin: 20px;
+}
+
+header img{
+	max-width: 300px;
+}
+
+header .botonesh{
+	float: right;
+	margin: 20px;
+
+}
+
+.bverde{
+	background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 19%, rgba(91, 223, 232, 0.888) 85%);
+	max-width: 150px;
+	width: 100%;
+	padding: 5px 10px;
+	color: #000000;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px; 
+	margin-top: 10px;
+	font-family: 'Sansita Swashed', cursive;
+
+}
+
+header .logof{
+	float: right;
+	margin: 20px;
+}
+
+header img{
+	max-width: 300px;
+}
+
+
+nav{
+	clear: both;
+	width: 100%;
+	background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 19%, rgba(91, 223, 232, 0.888) 85%);
+ 
+}
+
+#banner{
+	width: 100%;
+}
+ #banner img{
+ 	margin: 15px;
+ }
+
+#principal{
+	width: 100%;
+}
+
+.texto{
+     width: 25%;
+     float: left;
+     margin: 7px;
+     text-align: justify;
+     box-shadow: 3px 3px 6px #2150FD;
+     background: rgb(211,218,241);
+background: radial-gradient(circle, rgba(211,218,241,1) 0%, rgba(195,174,247,1) 100%);
+     padding: 5px;
+}
+
+.vision{
+	width: 25%;
+     float: right;
+     margin: 7px;
+     text-align: justify;
+     box-shadow: 3px 3px 6px #2150FD;
+     background: rgb(211,218,241);
+background: radial-gradient(circle, rgba(211,218,241,1) 0%, rgba(195,174,247,1) 100%);
+     padding: 5px;
+}
+
+
+
+.mision{
+	width: 25%;
+     float: right;
+     margin: 7px;
+     text-align: justify;
+     box-shadow: 3px 3px 6px #2150FD;
+     background: rgb(211,218,241);
+     background: radial-gradient(circle, rgba(211,218,241,1) 0%, rgba(195,174,247,1) 100%);
+     padding: 5px;
+}
+
+
+
+
+.bleer{
+	background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 19%, rgba(91, 223, 232, 0.888) 85%);
+	max-width: 100px;
+	width: 100%;
+	padding: 5px 10px;
+	color: #000000;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px; 
+	margin-top: 10px;
+	font-family: 'Sansita Swashed', cursive;
+}
+
+.bmas{
+	background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 19%,  rgba(91, 223, 232, 0.888) 85%);
+	max-width: 100px;
+	width: 100%;
+	padding: 5px 10px;
+	color: #000000;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px; 
+	margin-top: 10px;
+	font-family: 'Sansita Swashed', cursive;
+
+}
+
+
+
+
+nav ul{
+	list-style: none;
+}
+
+nav .menu >li{
+	display: inline-block;
+	text-align: center;
+}
+
+nav .menu >li >a{
+	display: block;
+	padding: 15px 25px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+nav .menu >li >a:hover{
+	transition: background-color 2s; 
+	background: rgb(22,73,208);
+    background: linear-gradient(9deg, rgba(22,73,208,1) 34%, rgba(255,255,255,1) 75%);
+	
+}
+
+.submenu{
+	position: absolute;
+	background: rgb(22,73,208);
+    background: linear-gradient(9deg, rgba(22,73,208,1) 34%, rgba(255,255,255,1) 75%);
+    visibility: hidden;
+	opacity: 0;
+}
+
+.submenu ul{
+	list-style: none;
+}
+.submenu{
+	position: absolute;
+	text-align: left;
+	visibility: hidden;
+	opacity: 0;}
+
+.submenu li{
+	width: 100%;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px 25px;
+	color: #009c11;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 3s;
+}
+
+footer{
+	width: 100%;
+    bottom: 0px;
+    background: rgb(136,172,255);
+    background: linear-gradient(90deg, rgba(136,172,255,1) 35%,  rgba(91, 223, 232, 0.888) 100%);
+	color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
