@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/educacion', (req, res) => {
-  res.render('/educacion',{
+  res.render('educacion',{
    titulo:"Sección educación",
    descripcion:"Aqui encotrarás mi formación académica"})
 })
@@ -25,17 +25,17 @@ app.get('/Laboral', (req, res) => {
   //res.send('Laboral')
   res.render('Laboral',{
     titulo:"sección experiencia laboral",
-    descripcion:"Aqui encontrarás mi informacion relacionada cn el ambito laboral"
+    descripcion:"Aqui encontrarás mi informacion relacionada con el ambito laboral"
   })
 
 })
 
 app.get('/Intereses', (req, res) => {
-  res.send('intereses')
+  res.render('Interese')
 })
 
 app.get('/Referencias', (req, res) => {
-  res.send('contacto')
+  res.render('Referencias')
 })
 
 app.use((req,res,next)=>{
